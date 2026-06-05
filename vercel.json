@@ -6,7 +6,7 @@
   "rewrites": [
     {
       "source": "/devproxy/:path*",
-      "destination": "/api/devproxy/:path*"
+      "destination": "https://run-lb.tanmasports.com/v1/:path*"
     },
     {
       "source": "/(.*)",
