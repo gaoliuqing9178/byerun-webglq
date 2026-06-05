@@ -26,6 +26,24 @@
       "delisted": false,
       "last_source": "onEdit",
       "last_content_hash": "8bd0cfd2"
+    },
+    "vercel.json": {
+      "ipo_ts": 1780675087263,
+      "edit_count": 1,
+      "last_lines": 16,
+      "last_ts": 1780675087263,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "19d50d03"
+    },
+    "api/devproxy.mjs": {
+      "ipo_ts": 1780675087375,
+      "edit_count": 2,
+      "last_lines": 82,
+      "last_ts": 1780675134994,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "5bbea0a9"
     }
   }
 }
