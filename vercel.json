@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "installCommand": "cd app && npm install",
+  "buildCommand": "cd app && npm run build",
+  "outputDirectory": "app/dist",
+  "rewrites": [
+    {
+      "source": "/devproxy/:path*",
+      "destination": "/api/devproxy/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
