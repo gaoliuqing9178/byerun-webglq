@@ -26,7 +26,8 @@ module.exports = async function handler(req, res) {
   }
 
   const incomingUrl = new URL(req.url, `https://${req.headers.host || 'localhost'}`);
-  const proxyPath = incomingUrl.pathname.replace(/^\/api\/devproxy/, '') || '/';
+  const proxyPath =
+    incomingUrl.pathname.replace(/^\/(?:api\/)?devproxy/, '') || '/';
   const targetUrl = `${TARGET_BASE}${proxyPath}${incomingUrl.search}`;
 
   const headers = { ...req.headers };

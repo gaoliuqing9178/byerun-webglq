@@ -1,0 +1,31 @@
+{
+  "symbols": {
+    "server/package-lock.json": {
+      "ipo_ts": 1780673593284,
+      "edit_count": 1,
+      "last_lines": 1255,
+      "last_ts": 1780673593284,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "1b33ecfb"
+    },
+    "server/combined.log": {
+      "ipo_ts": 1780673607250,
+      "edit_count": 1,
+      "last_lines": 1,
+      "last_ts": 1780673607250,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "d2bcdcc6"
+    },
+    "functions/devproxy/[[path]].js": {
+      "ipo_ts": 1780673908565,
+      "edit_count": 1,
+      "last_lines": 56,
+      "last_ts": 1780673908565,
+      "delisted": false,
+      "last_source": "onEdit",
+      "last_content_hash": "8bd0cfd2"
+    }
+  }
+}
